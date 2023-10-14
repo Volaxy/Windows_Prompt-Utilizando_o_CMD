@@ -10,13 +10,9 @@
 URL do curso -> [Windows Prompt: utilizando o CMD](https://cursos.alura.com.br/course/windows-prompt-utilizando-cmd)
 ![Windows Prompt: utilizando o CMD](https://www.alura.com.br/assets/api/share/curso-windows-prompt-utilizando-cmd.png)
 
-## :computer: Linguagens Usadas
-<div>
-    <img alt='LANGUAGE Logo' height='60' width='50' src='https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/LANGUAGE.svg' />&nbsp;
-</div>
-
 ## &#x1F517; Links Úteis
 * [Arquivos do Capítulo 1](https://github.com/alura-cursos/cursoprompt/tree/Aula01) - Arquivos de exemplo do capítulo 1.
+* [Arquivos do Capítulo 2](https://github.com/alura-cursos/cursoprompt/tree/Aula02) - Arquivos de exemplo do capítulo 2.
 
 ***
 
@@ -37,7 +33,7 @@ URL do curso -> [Windows Prompt: utilizando o CMD](https://cursos.alura.com.br/c
 * Mostrar o conteúdo de um arquivo com `type`.
 * Ajuda de comandos com `help`.
 * Mover um arquivo com `move`.
-* Executar um comando executado anteriormente com &#x2B06;.
+* Executar um comando executado anteriormente com &#x2B06;.7
 * Autopreencher um comando com a tecla *TAB*.
 * Comando `more`.
 
@@ -54,6 +50,26 @@ URL do curso -> [Windows Prompt: utilizando o CMD](https://cursos.alura.com.br/c
     * `date`.
     * `find`.
     * `exit`.
+
+## 02 - Criando Scripts
+
+### 01 - Primeiro .bat
+* Printar algo no console com `echo`.
+* `bat` significa lotes.
+* Criar um script que executa vários comandos **CMD** de uma vez.
+* Pausar o script com `pause`.
+
+### 02 - Processamento em Lote
+* Compactar arquivos com `tar`.
+    * `-C`: Compactação de arquivos.
+    * `-F`: Nomear e compactar.
+* Listar os arquivos compactados.
+* Desabilitar a impressão dos comandos `echo` com `@echo off`.
+
+### 03 - Tratando Erros
+* Reportar os erros dentro de um arquivo com `n> FILE_NAME`.
+* Usar condicionais.
+* Acessar os erros do script com `%ERRORLEVEL%`.
 
 ## :black_nib: Licença
 [Unlicense](https://unlicense.org)
