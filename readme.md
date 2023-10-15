@@ -71,5 +71,16 @@ URL do curso -> [Windows Prompt: utilizando o CMD](https://cursos.alura.com.br/c
 * Usar condicionais.
 * Acessar os erros do script com `%ERRORLEVEL%`.
 
+## 03 - Trabalhando com Variáveis
+
+### 01 - Definindo uma Variável
+* Criar uma variável com `set`.
+* Exibir o valor de uma variável.
+* Receber a entrada do usuário no terminal.
+
+### 02 - Configurando o PATH
+* O ***PATH*** é o local onde são armazenados os caminhos para os executáveis de um programa.
+* Definir uma variável de ambiente com `setx`.
+
 ## :black_nib: Licença
 [Unlicense](https://unlicense.org)
